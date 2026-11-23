@@ -11,7 +11,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /** With default settings the app starts with no data at all. */
-@SpringBootTest
+@SpringBootTest(properties = "clsms.load-sample-data=false")
 @AutoConfigureMockMvc
 class EmptyStartTest {
 

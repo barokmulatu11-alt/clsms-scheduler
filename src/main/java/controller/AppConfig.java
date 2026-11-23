@@ -43,7 +43,7 @@ public class AppConfig {
                                            RoomManager roomManager,
                                            CourseManager courseManager,
                                            InstructorManager instructorManager,
-                                           @Value("${clsms.load-sample-data:false}") boolean loadSampleData) {
+                                           @Value("${clsms.load-sample-data:true}") boolean loadSampleData) {
         ScheduleManager scheduleManager = new ScheduleManager(conflictChecker, roomManager, courseManager, instructorManager);
         // The app starts empty. Sample data (PRD Appendix A) is loaded only when clsms.load-sample-data=true
         if (loadSampleData) {

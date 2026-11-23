@@ -1,5 +1,10 @@
 {
-  "name": "clsms-scheduler",
   "outputDirectory": "src/main/resources/static",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://1e5b2961aea7fd.app.lhr.life/api/:path*"
+    }
+  ]
 }
