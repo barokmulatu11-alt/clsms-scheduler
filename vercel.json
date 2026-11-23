@@ -1,0 +1,5 @@
+{
+  "name": "clsms-scheduler",
+  "outputDirectory": "src/main/resources/static",
+  "cleanUrls": true
+}
