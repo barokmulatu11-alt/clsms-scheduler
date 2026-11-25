@@ -5,5 +5,7 @@ target/
 .vscode/
 *.log
 .DS_Store
+.vercel/
+*.pdf
 barok_labs_portfolio_intake/
 *Barok_Labs*
